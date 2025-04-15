@@ -1,0 +1,63 @@
+.app-container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.form button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  background: #625e5e;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.book-item button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.book-item button:first-child {
+  background: #ffc107;
+}
+
+.book-item button:last-child {
+  background: #dc3545;
+  color: white;
+}
